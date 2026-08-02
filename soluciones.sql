@@ -41,17 +41,6 @@ WHERE p.producto_id IS NULL;
 -- todos los productos y todas las ventas sin perder ninguna fila,
 -- identificando tanto productos sin ventas como ventas sin producto.
 
--- CONSULTA CON FULL OUTER JOIN
-SELECT 
-p.nombre AS producto_catalogo,
-p.producto_id AS id_produc_catalogo,
-v.venta_id,
-v.cantidad,
-v.fecha_venta
-FROM productos AS p
-FULL OUTER JOIN ventas AS v 
-ON p.producto_id = v.producto_id;
-
 -- CONSULTA CON FULL OUTER JOIN SIMULADO 
 SELECT 
     p.producto_id AS id_prod_catalogo,
