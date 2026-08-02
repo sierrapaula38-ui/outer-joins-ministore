@@ -5,9 +5,9 @@ Repositorio analítico de **MiniStore** enfocado en la auditoría de calidad de 
 ##  Estructura del Repositorio
 ```text
 outer-joins-ministore/
-├── schema.sql
-├── soluciones.sql
-└── README.md
+├── README.md
+├── schema.sql 
+└── soluciones.sql
 ```
 
 ## Preguntas Teóricas y Análisis de Resultados
